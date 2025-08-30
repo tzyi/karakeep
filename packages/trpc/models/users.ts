@@ -111,7 +111,7 @@ export class User implements PrivacyAware {
             name: input.name,
             email: input.email,
             password: input.password,
-            salt: input.salt,
+            salt: input.salt || "",
             role: userRole,
             emailVerified: input.emailVerified,
             bookmarkQuota: serverConfig.quotas.free.bookmarkLimit,

@@ -63,3 +63,4 @@ data
 .vscode
 auth_failures.log
 .claude/settings.local.json
+karakeep.code-workspace
